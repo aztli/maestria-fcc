@@ -5,6 +5,26 @@
   font-family: 'Source Sans Pro', sans-serif;
 }
 
+
+body {
+    background-color: #FAFAFA;
+    font-size: 1.125em;
+    letter-spacing: 0.050em;
+}
+
+.content h1, .content h2, .content h3 {
+    color: #003B5C !important;
+}
+
+.content h1 {
+    font-size: 2em;
+}
+
+.content h2 {
+    font-size: 1.6em;
+}
+
+
 navbar{
   background-color:#003B5C;
 }

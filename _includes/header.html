@@ -8,7 +8,7 @@
 </div>
 
 <!-- Menu principal -->
-<div class="pusher">
+<div class="">
   <div class="ui vertical masthead center aligned segment">
     <div class="ui container">
       <div class="ui large secondary menu" id="menu_desplegable">
@@ -21,7 +21,7 @@
         <div class="right item">
           {% for entry in site.data.menu %}
             <a class="item azul-claro-buap-texto"
-               href="{{ link entry.url }}">{{ entry.title }}</a>
+               href="{{ entry.url }}">{{ entry.title }}</a>
           {% endfor %}
         </div>
       </div>
