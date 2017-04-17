@@ -1,0 +1,17 @@
+- title: Inicio
+  url: index.html
+
+- title: Servicios Escolares
+  url: Servicios-Escolares.html
+
+- title: Eventos y Convocatoria
+  url: eventos.html
+
+- title: Profesores
+  url: Profesores.html
+
+- title: CUA
+  url: cua.html
+
+- title: Directorio FCC
+  url: directorio.html

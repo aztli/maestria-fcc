@@ -1,0 +1,30 @@
+{% include borla.html items=site.data.urls.cintilla %}
+
+<!-- Menu lateral -->
+<div class="ui vertical inverted azul-oscuro-buap sidebar menu left">
+  {% for entry in site.data.menu %}
+    <a class="item azul-claro-buap-texto" href="{{ link entry.url }}">{{ entry.title  }}</a>
+  {% endfor %}
+</div>
+
+<!-- Menu principal -->
+<div class="">
+  <div class="ui vertical masthead center aligned segment">
+    <div class="ui container">
+      <div class="ui large secondary menu" id="menu_desplegable">
+        <a class="toc item">
+          <i class="sidebar icon"></i>
+        </a>
+        <a href="index.html" class="ui left header item">
+          <img class="ui mini image" src="/assets/images/logo_FCC.png">
+        </a>
+        <div class="right item">
+          {% for entry in site.data.menu %}
+            <a class="item azul-claro-buap-texto"
+               href="{{ entry.url }}">{{ entry.title }}</a>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,36 @@
+{% assign groups = site.data.urls.footer.groups %}
+
+<!--Footer-->
+<footer class="ui inverted footer vertical segment azul-oscuro-buap text-small" style="margin-top:5.75em;">
+    <div class="ui stackable center aligned page grid">
+        <div class="six wide column center aligned stackable grid">
+            <div id="logo_buap_footer">
+                <a href="http://www.buap.mx/" target="_blank" class="escudo"></a>
+            </div>
+        </div>
+        <div class="ten wide column">
+            <div class="ui three column left aligned stackable grid">
+                {% for group in groups %}
+                <div class="left aligned column">
+                    <div class="ui inverted link list azul-claro-buap-texto">
+                        <br>
+                        <br>
+                  {% for entry in group %}
+                        <a class="item azul-claro-buap-texto" href="{{ entry.url }}">{{ entry.title }}</a>
+                  {% endfor %}
+                    </div>
+                </div>
+                {% endfor %}
+                <div class="left aligned column">
+                    <br>
+                    <br>
+                    <addr class="azul-claro-buap-texto">
+                        Facultad de Cs. de la Computación
+                        14 Sur y Av. San Claudio C.P.
+                        Puebla, Puebla, México
+                    </addr>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>

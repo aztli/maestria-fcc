@@ -1,0 +1,45 @@
+accreditation: &accreditation
+  title: Acreditación
+  url: http://calidadfcc.cs.buap.mx
+
+evaluation: &evaluation
+  title: Comisión de evaluación y Seg. Curri
+  url: http://ces.cs.buap.mx
+
+admin: &admin
+  title: Administración
+  url: http://ces.cs.buap.mx
+
+dges: &dges
+  title: DGES
+  url: http://www.dges.buap.mx
+
+privacy: &privacy
+  title: Aviso de privacidad
+  url: http://cmas.siu.buap.mx/portal_pprd/wb/rectoria/aviso
+
+phonebook: &phonebook
+  title: Directorio Telefónico
+  url: http://cmas.siu.buap.mx/portal_pprd/wb/BBUAP/directorio_telefonico_201
+
+inbox: &inbox
+  title: Buzón de Comentarios
+  url: http://cmas.siu.buap.mx/portal_pprd/wb/BBUAP/buzon_de_comentario
+
+mail: &mail
+  title: Correo
+  url: http://mail.office365.com
+
+autoservice: &autoservice
+  title: Autoservicios
+  url: http://webserver1.siiaa.siu.buap.mx:81/autoservicios/twbkwbis.P_WWWLogin
+
+
+cintilla:
+ - *mail
+ - *autoservice
+
+footer:
+  groups:
+    - [*accreditation, *evaluation, *admin, *dges]
+    - [*privacy, *phonebook, *inbox]
