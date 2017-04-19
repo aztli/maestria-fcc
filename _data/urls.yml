@@ -1,18 +1,6 @@
-accreditation: &accreditation
-  title: Acreditación
-  url: http://calidadfcc.cs.buap.mx
-
 evaluation: &evaluation
   title: Comisión de evaluación y Seg. Curri
-  url: http://ces.cs.buap.mx
-
-admin: &admin
-  title: Administración
-  url: http://ces.cs.buap.mx
-
-dges: &dges
-  title: DGES
-  url: http://www.dges.buap.mx
+  url: http://www.conacyt.mx/index.php/becas-y-posgrados/programa-nacional-de-posgrados-de-calidad
 
 privacy: &privacy
   title: Aviso de privacidad
@@ -41,5 +29,5 @@ cintilla:
 
 footer:
   groups:
-    - [*accreditation, *evaluation, *admin, *dges]
+    - [*evaluation, ]
     - [*privacy, *phonebook, *inbox]
