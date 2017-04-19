@@ -1,0 +1,11 @@
+- title: Inicio
+  url: index.html
+
+- title: Perfil
+  url: perfiles.html
+
+- title: Plan de Estudios
+  url: plan-de-estudios.html
+
+- title: Docentes
+  url: docentes.html

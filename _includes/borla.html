@@ -1,0 +1,7 @@
+<navbar id="top" class="ui menu inverted azul-oscuro-buap text-small">
+    <div class="right menu">
+        {% for item in include.items  %}
+        <a class="item" href="{{ item.url }}">{{ item.title }}</a>
+        {% endfor %}
+    </div>
+</navbar>
