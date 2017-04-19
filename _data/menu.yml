@@ -1,17 +1,11 @@
 - title: Inicio
   url: index.html
 
-- title: Servicios Escolares
-  url: Servicios-Escolares.html
+- title: Perfil
+  url: perfiles.html
 
-- title: Eventos y Convocatoria
-  url: eventos.html
+- title: Plan de Estudios
+  url: plan-de-estudios.html
 
-- title: Profesores
-  url: Profesores.html
-
-- title: CUA
-  url: cua.html
-
-- title: Directorio FCC
-  url: directorio.html
+- title: Docentes
+  url: docentes.html

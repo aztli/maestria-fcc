@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Secretaria Academica FCC
-description: Sitio Oficial para la Secretaria Academica de la Facultad de Computación en la Benemérita Universidad Autónoma de Puebla.
+title: Maestria en Ciencias de la Computación FCC
+description: Sitio Oficial de la Maestria en Ciencias de la Computación de la Benemérita Universidad Autónoma de Puebla.
 ---
 
 # Maestría en Ciencias de la Computación
