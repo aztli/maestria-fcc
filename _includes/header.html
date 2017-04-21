@@ -20,10 +20,43 @@
         </a>
         <div class="right item">
           {% for entry in site.data.menu %}
-            <a class="item azul-claro-buap-texto"
-               href="{{ entry.url }}">{{ entry.title }}</a>
+            {% if entry.subcategories != null %}
+              <div class="ui dropdown link item">
+                <a class="item azul-claro-buap-texto"
+                   href="{{ entry.url }}">{{ entry.title }}</a>
+                <i class="dropdown icon"></i>
+
+                  <div class="menu">
+                    {% for subcategory in entry.subcategories %}
+                      {% if subcategory.subcategories != null %}
+                      <div class="item">
+                        <i class="dropdown icon"></i>
+                        <span class="text">{{ subcategory.title }}</span>
+                        <div class="menu">
+                          {% for subsubcategory in subcategory.subcategories %}
+                          <a class="item" href="{{ subsubcategory.url }}">{{ subsubcategory.title }}</a>
+                          {% endfor %}
+                        </div>
+                      </div>
+                      {% else %}
+                        <a class="item"
+                           href="{{ subcategory.url }}">{{ subcategory.title }}</a>
+                      {% endif %}
+                    {% endfor %}
+                  </div>
+
+              </div>
+
+            {% else %}
+              <a class="item azul-claro-buap-texto"
+                 href="{{ entry.url }}">{{ entry.title }}</a>
+            {% endif%}
+
           {% endfor %}
+
         </div>
+
+
       </div>
     </div>
   </div>

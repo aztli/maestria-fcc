@@ -6,6 +6,25 @@
 
 - title: Plan de Estudios
   url: plan-de-estudios.html
+  subcategories:
+    - title: Síntesis
+      url: sintesis-del-plan-de-estudios.html
+
+    - title: Lineas de investigación
+      url: lineas-de-investigacion.html
+      subcategories:
+        - title: Productividad
+          url: productividad.html
+        - title: Vinculación
+          url: vinculacion.html
+        - title: Tésis y tutoria
+          url: tesis-y-tutoria.html
 
 - title: Docentes
   url: docentes.html
+
+- title: Alumnos
+  url: alumnos.html
+
+- title: Procesos administrativos
+  url: procesos-administrativos.html
