@@ -10,9 +10,11 @@
     - title: Síntesis
       url: sintesis-del-plan-de-estudios.html
 
-    - title: Lineas de investigación
-      url: lineas-de-investigacion.html
+    - title: Lineas
+      url: lineas-investigacion.html
       subcategories:
+        - title: Lineas de investigación
+          url: lineas-investigacion.html
         - title: Productividad
           url: productividad.html
         - title: Vinculación
@@ -27,4 +29,4 @@
   url: alumnos.html
 
 - title: Procesos administrativos
-  url: procesos-administrativos.html
+  url: procesos.html
