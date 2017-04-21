@@ -286,3 +286,15 @@ a:hover {
   opacity: 0.6;
   text-decoration: none;
 }
+
+.ui.menu .item>*:not(.ui){
+    margin: 0;
+    padding-right: .5em;
+}
+.ui.secondary.menu .item {
+  margin: 0;
+}
+
+.ui.menu .item>i.dropdown.icon{
+  margin: 0;
+}
