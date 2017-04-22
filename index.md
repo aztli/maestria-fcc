@@ -8,8 +8,6 @@ description: Sitio Oficial de la Maestria en Ciencias de la Computación de la B
 
 **Este programa pertenece al PNPC de CONACYT**
 
-**Nivel PNPC**: En desarrollo
-
 ## Objetivo:
 Formar profesionales en las Ciencias de la Computación con énfasis en la formación de jóvenes investigadores capaces de analizar, comprender y desarrollar tecnología para resolver los problemas en las Ciencias e Ingenierías.
 
@@ -40,5 +38,3 @@ La titulación se hace mediante la defensa del trabajo de tesis; para graduarse 
 3. Cubrir derechos de examen.
 
 4. Realizar la defensa pública de su trabajo de tesis.
-
-
