@@ -15,18 +15,15 @@
       subcategories:
         - title: Lineas de investigación
           url: lineas-investigacion.html
-        - title: Productividad
-          url: productividad.html
+        - title: Productividad Academica
+          url: documents/productividad-academica.pdf
         - title: Vinculación
-          url: vinculacion.html
+          url: documents/vinculacion.pdf
         - title: Tésis y tutoria
-          url: tesis-y-tutoria.html
+          url: documents/tesistas.pdf
 
 - title: Docentes
   url: docentes.html
-
-- title: Alumnos
-  url: alumnos.html
 
 - title: Procesos administrativos
   url: procesos.html
