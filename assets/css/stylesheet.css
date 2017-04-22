@@ -298,3 +298,8 @@ a:hover {
 .ui.menu .item>i.dropdown.icon{
   margin: 0;
 }
+
+
+.item.left.header {
+    padding-left: 6px !important;
+}
