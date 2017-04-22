@@ -14,7 +14,10 @@
     $('.ui.sidebar').sidebar('attach events', '.toc.item');
     //Menus desplegables
     $('.ui.accordion').accordion();
-   
+
+    
+    $('.ui.dropdown').dropdown();
+
     //Carousel
     $('.carousel').carousel({
        interval: 5000
@@ -23,7 +26,7 @@
     //Tabs
     $('.menu .item').tab();
 
-    
+
      var $demo = $('.ui.shape'),$directionButton = $('.direction .button'),handler;
  // event handlers
     handler = {

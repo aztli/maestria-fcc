@@ -2,14 +2,6 @@
 ---
 # Plan de Estudios
 
-## Propedeutico
-  - Lenguajes Formales y Lógica Matemática
-  - Programación
-  - Matemáticas y Estadística
-  - Algebra Lineal
-
-
-
 ## TRONCO COMÚN
 **1° Semestre**
 

@@ -16,14 +16,47 @@
           <i class="sidebar icon"></i>
         </a>
         <a href="index.html" class="ui left header item">
-          <img class="ui mini image" src="assets/images/logo_FCC.png">
+          <img class="ui mini image" src="assets/images/FCC.png">
         </a>
-        <div class="right item">
+        <div class="right item clase-de-prueba">
           {% for entry in site.data.menu %}
-            <a class="item azul-claro-buap-texto"
-               href="{{ entry.url }}">{{ entry.title }}</a>
+            {% if entry.subcategories != null %}
+              <div class="ui dropdown link item">
+                <a class="azul-claro-buap-texto"
+                   href="{{ entry.url }}">{{ entry.title }}</a>
+                <i class="dropdown icon"></i>
+
+                  <div class="menu">
+                    {% for subcategory in entry.subcategories %}
+                      {% if subcategory.subcategories != null %}
+                      <div class="item">
+                        <i class="dropdown icon"></i>
+                        <span class="text">{{ subcategory.title }}</span>
+                        <div class="menu">
+                          {% for subsubcategory in subcategory.subcategories %}
+                          <a class="item" href="{{ subsubcategory.url }}">{{ subsubcategory.title }}</a>
+                          {% endfor %}
+                        </div>
+                      </div>
+                      {% else %}
+                        <a class="item"
+                           href="{{ subcategory.url }}">{{ subcategory.title }}</a>
+                      {% endif %}
+                    {% endfor %}
+                  </div>
+
+              </div>
+
+            {% else %}
+              <a class="item azul-claro-buap-texto"
+                 href="{{ entry.url }}">{{ entry.title }}</a>
+            {% endif%}
+
           {% endfor %}
+
         </div>
+
+
       </div>
     </div>
   </div>
