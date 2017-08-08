@@ -1,5 +1,8 @@
 ---
 ---
+
+[![Convocatoria Maestria 2017](http://www.cs.buap.mx/bannerMaestria2017.jpg)](http://posgrado.cs.buap.mx/2017/ConvocatoriaMaestria2017.pdf)
+
 # Coordinación de Posgrado
 
 **Facultad de Ciencias de la Computación**

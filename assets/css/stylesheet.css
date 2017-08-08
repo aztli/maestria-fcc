@@ -1,7 +1,4 @@
----
----
-
-*{
+* {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -31,6 +28,12 @@ navbar{
 
 navbar a{
   padding: 15px;
+}
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 #footer {
@@ -302,4 +305,8 @@ a:hover {
 
 .item.left.header {
     padding-left: 6px !important;
+}
+
+.content + p {
+    text-align: center;
 }
